@@ -18,7 +18,7 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": [ "yanz@microsoft" ],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "dependent_repositories": [
