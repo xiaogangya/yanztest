@@ -16,6 +16,20 @@
         "RestApi": "Content"
       },
       "template_folder": "_themes"
+    },
+    {
+      "docset_name": "yanzdoc1",
+      "build_source_folder": "yanzdoc1",
+      "build_output_subfolder": "yanzdoc1",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "template_folder": "_themes.MSDN.Modern"
     }
   ],
   "notification_subscribers": [],
@@ -25,6 +39,12 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.MSDN.Modern",
+      "url": "https://github.com/Microsoft/templates.msdn.msft",
       "branch": "master",
       "branch_mapping": {}
     }
